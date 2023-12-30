@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+header {
+    background-color: #fffffff7;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+
+.navigation a{
+    color: #212121;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover{
+    color: #689F38
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/backg1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.avatar-container {
+    position:absolute;
+    top: 250px;
+    right: 300px;
+  }
+  
+  .avatar {
+    width: 480px; /* Adjust the size as needed */
+    height: 490px;
+    border-radius: 50%;
+    border: 10px solid #DCEDC8; /* Optional: Add a border to the avatar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+.main h2 {
+    color: #DCEDC8;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    /* color: rgba(220, 255, 78, 0.815); */
+    color:#8BC34A;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color:#DCEDC8;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.social-icons a {
+    color: #DCEDC8;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #212121;
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    background-color: #f9f9f9;
+    padding: 50px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .text {
+    width: 50%;
+    font-size: 1.4em;
+  }
+  .photo {
+    flex: 2; 
+    display:flex;
+    justify-content: right;
+  }
+  
+  .photo img {
+    border-radius: 1px;
+    max-width: 80%;
+    top: 100%;
+    /* right: 560px; */
+    margin-right: 0em;
+    margin-top: 20px;
+  }
+  
+.content {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.black-section {
+    background-color: #212121;
+    color: #fff; /* Set text color to white for better contrast */
+  }
+.black-section h2{
+    display: flex;
+    justify-content: center;
+    /* color: #fff; */
+    background: linear-gradient(90deg, #74aace, #9b59b6, #eba364, #e49ddc);
+    font-size: 2.2em;
+    font-weight: 500;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+.black-section p{
+    line-height: 1.8em;
+    letter-spacing: 3px;
+    /* width: 90%; */
+    font-size: 1.4em;
+    margin-top: 250px;
+    text-align: center;
+      
+}
+.pic-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh; /* Adjust the height as needed */
+  }
+
+  .column {
+    text-align: center;
+    width: 60%;
+  }
+
+  .column img {
+    width: 70%;
+    border-radius: 8px;
+    margin-bottom: 1px;
+    margin-top: 200px;
+  }
+
+  .family-sec{
+    background-image: url(images/heartsBack.png);
+  }
+
+  .family-sec h2{
+    display: flex;
+    justify-content: center;
+    /* color:#212121c5; */
+    color: #e9004aaa;;
+    font-size: 2.2em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50px;  
+    
+  }
+
+  .family-sec p{
+    line-height: 1.8em;
+    letter-spacing: 3px;
+    /* width: 90%; */
+    font-size: 1.4em;
+    margin-top: 250px;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 1px;    
+  }
+
+  .family-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust the height as needed */
+  }
+
+  .fam {
+    text-align: center;
+    width: 60%;
+  }
+
+  .fam img {
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 1px;
+    margin-top: 200px;
+    border: 20px solid #e9004a79; 
+  }
+    .interests-sec{
+        background-image: url(images/backgroundNote.png);
+        margin-bottom: 100px;
+    }
+
+
+    .interests-sec h2{
+        display: flex;
+        justify-content: center;
+        /* color:#212121c5; */
+        color:  #212121;
+        font-size: 2.2em;
+        font-weight: 600;
+        margin-bottom: 30px;
+        background: #fff;
+        padding: 10px;
+        border-radius: 50px;  
+    }  
+
+    .interests-sec p{
+        line-height: 1.5em;
+        letter-spacing: 1px;
+        width: 50%;
+        font-size: 1.40em;
+        margin-top: 250px;
+        text-align: center;
+        padding: 30px;
+        margin-left:26%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        color: #000;
+      }
+    
+
+.footer {
+    background-color: #212121;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+
+
+ 
+ @media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+} 
